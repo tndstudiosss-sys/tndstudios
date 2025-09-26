@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TND Studios</title>
+	<link rel="icon" type="image/png" href="https://i.imgur.com/4jcEEck.png">
+	<link rel="icon" type="image/jpeg" href="https://i.imgur.com/4jcEEck.jpeg">
+	<link rel="shortcut icon" href="https://i.imgur.com/4jcEEck.png">
+	<link rel="shortcut icon" href="https://i.imgur.com/4jcEEck.jpeg">
+	<link rel="icon" type="image/x-icon" href="https://i.imgur.com/4jcEEck.ico">
+	<style>
+		body {
+			margin: 0;
+			font-family: 'Segoe UI', Arial, sans-serif;
+			background: linear-gradient(135deg, #181818 0%, #222 100%);
+			color: #fff;
+		}
+		.hero {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 70vh;
+			text-align: center;
+		}
+		.logo-img {
+			width: 120px;
+			height: 120px;
+			border-radius: 24px;
+			box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+			margin-bottom: 24px;
+		}
+		.hero-title {
+			font-size: 3em;
+			font-weight: bold;
+			color: #00bfff;
+			margin-bottom: 12px;
+		}
+		.hero-tagline {
+			font-size: 1.4em;
+			color: #ccc;
+			margin-bottom: 32px;
+		}
+		.quick-links {
+			display: flex;
+			gap: 24px;
+			justify-content: center;
+			margin-bottom: 32px;
+		}
+		.quick-link {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			background: #222;
+			color: #fff;
+			padding: 14px 32px;
+			border-radius: 8px;
+			font-size: 1.15em;
+			font-weight: 500;
+			text-decoration: none;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+			transition: background 0.2s, color 0.2s;
+		}
+		.quick-link:hover {
+			background: #00bfff;
+			color: #181818;
+		}
+		.section {
+			max-width: 700px;
+			margin: 0 auto 48px auto;
+			background: #222;
+			border-radius: 12px;
+			box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+			padding: 32px;
+		}
+		.section h2 {
+			color: #00bfff;
+			margin-bottom: 16px;
+		}
+		@media (max-width: 600px) {
+			.hero-title {
+				font-size: 2em;
+			}
+			.section {
+				padding: 16px;
+			}
+			.quick-links {
+				flex-direction: column;
+				gap: 16px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="hero">
+		<img src="https://i.imgur.com/4jcEEck.jpeg" alt="TND Studios Logo" class="logo-img">
+		<div class="hero-title">TND Studios</div>
+		<div class="hero-tagline">Your hub for creative content, videos, and community</div>
+		<div class="quick-links">
+			<a class="quick-link" href="info.html">Information</a>
+			<a class="quick-link" href="games.html">Games</a>
+			<a class="quick-link" href="https://www.youtube.com/@TheNormalDevelopersStudios" target="_blank">YouTube</a>
+			<a class="quick-link" href="https://discord.gg/XqKSxUyXc6" target="_blank">Discord</a>
+		</div>
+	</div>
+	<div style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); padding: 24px 0 24px 24px;">
+	<iframe style="transform: rotate(-10deg); box-shadow: 0 8px 32px rgba(0,0,0,0.4);" width="420" height="315" src="https://www.youtube.com/embed/d4zQdVQOZgg?rel=0&modestbranding=1" title="MONSTER MAYHEM TRAILER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+	<footer style="text-align:center; color:#888; font-size:1em; margin-top:48px; padding:24px 0 0 0;">
+		© 2025 TND Studios. All rights reserved.
+	</footer>
+</body>
